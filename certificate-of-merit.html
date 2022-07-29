@@ -53,6 +53,13 @@
     .item .price h5 {
       font-weight: 600;
     }
+    .head {
+            background-color: grey;
+            height: 375px;
+        }
+    p {
+      font-size: 30px;
+    }
   </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,33 +87,19 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./content.html">Contents</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Course
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">學習歷程</a></li>
-                <li><a class="dropdown-item" href="#">專題製作</a></li>
-                <li><a class="dropdown-item" href="#">證照</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="./course.html">Course</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Certificate of merit
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">校內獎狀</a></li>
-                <li><a class="dropdown-item" href="#">在校成績</a></li>
-                <li><a class="dropdown-item" href="#">其他獎狀</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="./certificate-of-merit.html">Certificate of merit</a>
             </li>
+
+            
 
           </ul>
           <br>
@@ -119,45 +112,222 @@
       <a class="navbar-brand" href="#">My Homepage</a>
     </div>
   </nav>
-  <div class="container-xl">
-    <div class="row">
-      <div class="col-12 col-md-4 col-xl-3">
-        <div class="item">
-          <div class="item-photo">
-            <img src="./image/高一上成績單&獎狀_1_一段成績.jpg">
-          </div>
-          <div class="price">
-            <h5>校內各項獎狀</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 col-xl-3">
-        <div class="item">
-          <div class="item-photo">
-            <img src="./image/高一上成績單&獎狀_2_一段成績單.jpg">
-          </div>
-          <div class="price">
-            <h5>成績</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 col-xl-3">
-        <div class="item">
-          <div class="item-photo">
-            <img src="./image/高一下_12 (3).jpg">
-          </div>
-          <div class="price">
-            <h5>其他獎狀</h5>
-          </div>
+  <div class="head">
+    <div class="px-4 py-5 my-5 text-center">
+      <br><br><br><br>
+      <h1 class="display-5 fw-bold">Certificate of merit</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead-mb-4">獎狀與成績單</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
         </div>
       </div>
     </div>
   </div>
 
+
+  <div class="col-12 col-md-7 col-lg-2 mx-auto">
+    <div id="slides" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image/高一上成績單&獎狀_1_一段成績.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_3_二段成績.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_5_三段成績.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_9_學期成績.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_7_校慶100m.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_8_校慶跳遠.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一下_8 (2).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">3nd</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">4th</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">5th</span>
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="col-12 col-md-7 col-lg-2 mx-auto">
+    <div id="slides-1" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slides-1" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#slides-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#slides-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#slides-1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#slides-1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#slides-1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#slides-1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image/高一上成績單&獎狀_2_一段成績單.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_4_二段成績單.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_6_三段成績單.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一上成績單&獎狀_10_學期成績單.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一下_7 (2).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+
+    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#slides-1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides-1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides-1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">3nd</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides-1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">4th</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides-1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">5th</span>
+      </button>
+    </div>
+  </div>
+
+
+
+  <div class="col-12 col-md-7 col-lg-2 mx-auto">
+    <div id="slides-2" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slides-2" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#slides-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./image/高一下_12 (3).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./image/高一下_11 (2).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#slides-2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides-2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-  crossorigin="anonymous"></script>
-  
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
